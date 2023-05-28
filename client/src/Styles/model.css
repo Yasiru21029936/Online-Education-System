@@ -1,0 +1,12 @@
+.dialog {
+    /* box-shadow: 0 8px 6px -6px black; */
+    position: relative;
+    left: 5%;
+    top: 15%;
+    margin : auto
+  }
+  
+  .image {
+    width: 600px;
+  }
+  

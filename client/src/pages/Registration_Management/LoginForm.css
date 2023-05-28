@@ -1,0 +1,205 @@
+/* *{
+    margin: auto;    
+    box-sizing: border-box;
+    
+    align-items: center;
+} */
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("./RolexLight.woff2");
+}
+
+.all{
+    display: flex;
+    margin-top: 6%;    
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .page {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+} */
+
+.login{
+    background-color: rgb(211, 224, 222);
+    width: 25em;
+    height: 25em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "CustomFont";
+    padding-top: 10px;
+}
+
+
+
+.login_input{
+    padding: 10px;
+    background-color: rgb(229, 226, 226);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "CustomFont";
+}
+
+.login_input:focus{
+    outline-color: rgb(32, 177, 255);
+    
+}
+
+.else a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: small;
+}
+
+.login_btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: "CustomFont";
+
+}
+
+.login_btn a:hover{
+    color: black;
+    font-weight: 800;
+    background: none;
+    padding:5px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.gg{
+    display: flex;
+    width: 100%;
+    border-top: 2px rgb(22, 21, 21) solid;
+    border-radius: 3px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.log_btn {
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: black; */
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+  
+.log_btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.log_btn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #317e76;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+   
+   
+.log_btn:hover::before {
+    width: 105%;
+}
+   
+.log_btn:hover {
+    color: #111;
+}
+   
+/* button 01 */
+
+.log_btn1 {
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: black; */
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+  
+.log_btn1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.log_btn1::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background: #317e76;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+   
+   
+.log_btn1:hover::before {
+    width: 105%;
+}
+   
+.log_btn1:hover {
+    color: #111;
+}
+
+.else a:hover{
+    color: black;
+    font-weight: 800;
+    background: none;
+    padding:5px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
