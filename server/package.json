@@ -19,7 +19,7 @@
     "express-async-handler": "^1.2.0",
     "express-fileupload": "^1.4.0",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.5.4",
+    "mongoose": "^8.0.0",
     "nodemon": "^2.0.19",
     "react": "^18.2.0",
     "react-live-clock": "^6.0.6"
